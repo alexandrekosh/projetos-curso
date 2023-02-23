@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--font-color1);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-color1: #555;
+    --font-color2: #111;
+    --link-color: #FD8124;
+    --bar-color: #333;
+}
+h1, h2{
+    color: var(--font-color2);
+}
+.top-bar{
+    background-color: var(--bar-color);
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom:5px solid var(--link-color);
+}
+.container{
+    max-width: 888px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.headLine{
+    font-size: 56px;
+    line-height: 64px;
+}
+.sub-tittle{
+    font-weight: normal;
+    font-size: 20px;
+}
+.author{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.social-icon{
+    margin-top: 10px;
+}
+.social-icons{
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+}
+a{
+    font-weight: bold;
+    color: var(--link-color);
+}
+.content{
+    max-width: 648px;
+    margin: 0 auto;
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.cta{
+    font-size: 20px;
+    margin: 30px 0px;
+}
+figure{
+    margin: 40px 0px;
+    font-size: 12px;
+}
+figure>img{
+    width: 100%;
+}
+footer{
+    background-color: var(--bar-color);
+    height: 100px;
+}
